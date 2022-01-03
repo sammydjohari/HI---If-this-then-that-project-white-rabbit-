@@ -15,13 +15,13 @@ Group project to incorporate the project management tools we've been learning (g
 
 ### :dart: Goals:
 
-I went with a personal recipe bank and set the following goals:
-- Learn HTML, CSS, and JavaScript
-- Build a responsive site across any device
-- Build something I enjoy and can use
-- Explore JS as much as possible
-- Build a snakegame
-- Get the basics of Git and using github
+Even if it was a group project, I went with a personal recipe bank and set the following goals:
+- Learn more HTML, CSS, and JavaScript
+- Create the random appearing rabbit
+- Build the difficulty page
+- Explore more JS
+- Learn teamqwork
+- Using github in group
 
 ### :grimacing: Description:
 
