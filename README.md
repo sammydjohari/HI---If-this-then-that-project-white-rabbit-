@@ -2,7 +2,7 @@
 
 ---
 
-Hyper Island - The Fundamentals
+Hyper Island - If this then that
 
 ### :open_file_folder: The Brief:
 
