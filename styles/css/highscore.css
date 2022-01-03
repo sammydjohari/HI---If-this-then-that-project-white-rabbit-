@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800&display=swap");
+@font-face {
+  font-family: 'no-continue';
+  src: url("../../Fonts/no-continue/WebKit/no_continue.eot");
+  /* IE9 Compat Modes */
+  src: url("../../Fonts/no-continue/WebKit/no_continue.eot?#iefix") format("embedded-opentype"), url("../../Fonts/no-continue/WebKit/no_continue.woff2") format("woff2"), url("../../Fonts/no-continue/WebKit/no_continue.woff") format("woff"), url("../../Fonts/no-continue/WebKit/no_continue.ttf") format("truetype"), url("../../Fonts/no-continue/WebKit/no_continue.svg#no_continue") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+table {
+  background-color: transparent;
+  width: 80%;
+  margin: 5vh 0 5vh 0;
+}
+
+table th {
+  color: #EFEFEF;
+  font-size: 14px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+table tr td {
+  color: #EFEFEF;
+  font-size: 14px;
+  font-size: 16px;
+}
+
+table tr .table-rank {
+  width: 10%;
+  text-align: center;
+}
+
+table tr .table-date {
+  width: 25%;
+  text-align: center;
+}
+
+table tr .table-time {
+  width: 25%;
+  text-align: center;
+}
+
+table tr .table-react {
+  width: 20%;
+  text-align: center;
+}
+
+table tr .table-difficulty {
+  width: 20%;
+  text-align: center;
+}
+
+table tr .table-header {
+  font-size: 17px;
+  text-align: center;
+}
+
+#highscore-btns {
+  width: 60%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#highscore-btns button {
+  background-color: #171717;
+  height: 40px;
+  width: 80px;
+  color: white;
+  font-size: 14px;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=highscore.css.map */

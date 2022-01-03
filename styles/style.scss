@@ -1,0 +1,127 @@
+@import "variables", "fonts", "landing", "highscore", "difficulty", "summary",
+  "game";
+
+//General styling
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  p {
+    color: $white;
+    font-size: 14px;
+  }
+  h1 {
+    color: $white;
+  }
+  h2 {
+    color: $white;
+  }
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+  #main {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+video {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+#box {
+  background-color: $black;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.6;
+  width: 80vw;
+  height: 80vh;
+  margin: 10vh 10vw 10vh 10vw;
+  border-radius: 20px;
+}
+#content {
+  background-color: transparent;
+  position: absolute;
+  z-index: 2;
+  width: 80vw;
+  height: 80vh;
+  min-width: 500px;
+  margin: 10vh 10vw 10vh 10vw;
+  padding: 20px;
+  display: flex;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: inline-block;
+  position: absolute;
+}
+.card #logo {
+  z-index: 1;
+  width: 7vw;
+  min-width: 45px;
+}
+.card #logo-back {
+  display: none;
+  z-index: 99;
+  width: 7vw;
+  min-width: 45px;
+}
+.card:hover #logo-back {
+  display: inline;
+  cursor: crosshair;
+}
+.card:hover #logo {
+  display: none;
+  cursor: crosshair;
+}
+#game-page {
+  button {
+    padding: 0.75rem 1.25rem;
+    border-radius: 10rem;
+    color: $white;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: green;
+      border-radius: 10rem;
+      z-index: -2;
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 100%;
+      background-color: $black;
+      transition: all 0.3s;
+      border-radius: 10rem;
+      z-index: -1;
+    }
+    &:hover {
+      color: greenyellow;
+      &:before {
+        width: 100%;
+      }
+    }
+  }
+}

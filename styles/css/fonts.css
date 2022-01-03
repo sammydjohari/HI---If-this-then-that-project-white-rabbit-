@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800&display=swap");
+@font-face {
+  font-family: 'no-continue';
+  src: url("../../Fonts/no-continue/WebKit/no_continue.eot");
+  /* IE9 Compat Modes */
+  src: url("../../Fonts/no-continue/WebKit/no_continue.eot?#iefix") format("embedded-opentype"), url("../../Fonts/no-continue/WebKit/no_continue.woff2") format("woff2"), url("../../Fonts/no-continue/WebKit/no_continue.woff") format("woff"), url("../../Fonts/no-continue/WebKit/no_continue.ttf") format("truetype"), url("../../Fonts/no-continue/WebKit/no_continue.svg#no_continue") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+/*# sourceMappingURL=fonts.css.map */

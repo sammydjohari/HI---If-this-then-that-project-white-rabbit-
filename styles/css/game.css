@@ -1,0 +1,26 @@
+#game-page {
+  height: 100vh;
+  width: 100vw;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+  position: relative;
+}
+
+#game-page img {
+  height: 100px;
+  width: 100px;
+  z-index: 5;
+  text-align: center;
+  position: relative;
+  cursor: crosshair;
+}
+
+#game-page button {
+  z-index: 5;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=game.css.map */

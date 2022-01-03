@@ -1,0 +1,16 @@
+//Example imported font (with files included in directory)
+@font-face {
+    font-family: 'no-continue';
+    src: url('../../Fonts/no-continue/WebKit/no_continue.eot'); /* IE9 Compat Modes */
+    src: url('../../Fonts/no-continue/WebKit/no_continue.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../../Fonts/no-continue/WebKit/no_continue.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../../Fonts/no-continue/WebKit/no_continue.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../../Fonts/no-continue/WebKit/no_continue.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../../Fonts/no-continue/WebKit/no_continue.svg#no_continue') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+//Sample imported Google font
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800&display=swap');
+

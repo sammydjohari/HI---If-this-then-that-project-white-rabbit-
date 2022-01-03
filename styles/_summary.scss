@@ -1,0 +1,67 @@
+@import "variables", "fonts";
+
+#score {
+  width: 100%;
+  border-radius: 60px;
+  background-color: transparent;
+  margin: 0 0 10px 0;
+  h3 {
+    font-size: 1em;
+    color: $white;
+    text-align: center;
+  }
+  h2 {
+    font-size: 1.5em;
+    color: $white;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+    font-size: 2.5em;
+  }
+}
+#score-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 10px 0;
+}
+#play-again {
+  text-align: center;
+  p {
+    font-size: 1.5em;
+  }
+  button {
+    background-color: $black;
+    color: greenyellow;
+    display: flex reverse;
+    justify-content: space-around;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 20px;
+    width: 15vw;
+    max-width: 130px;
+    min-width: 100px;
+  }
+  button:hover {
+    animation: pulse 0.1s linear;
+    background-color: $green;
+    color: $white;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 yellowgreen;
+  }
+  50% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 10px yellowgreen;
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 yellowgreen;
+  }
+}

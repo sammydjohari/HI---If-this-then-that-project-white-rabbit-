@@ -1,0 +1,102 @@
+#score {
+  width: 100%;
+  border-radius: 60px;
+  background-color: green;
+  margin: 0 0 10px 0;
+}
+
+#score h2 {
+  font-size: 1.5em;
+  color: greenyellow;
+  text-align: center;
+}
+
+#score h1 {
+  text-align: center;
+}
+
+#score-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 0 10px 0;
+}
+
+#play-again {
+  text-align: center;
+}
+
+#play-again p {
+  font-size: 1.5em;
+}
+
+#play-again button {
+  display: flex reverse;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 1em;
+  padding: 10px;
+  border-radius: 20px;
+  width: 15vw;
+  max-width: 130px;
+  min-width: 100px;
+}
+
+#play-again button:hover {
+  -webkit-animation: pulse 0.1s linear;
+          animation: pulse 0.1s linear;
+  background-color: green;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-box-shadow: 0 0 0 0 rgba(223, 222, 222, 0.7);
+            box-shadow: 0 0 0 0 rgba(223, 222, 222, 0.7);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    -webkit-box-shadow: 0 0 0 10px rgba(223, 222, 222, 0.7);
+            box-shadow: 0 0 0 10px rgba(223, 222, 222, 0.7);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-box-shadow: 0 0 0 0 rgba(223, 222, 222, 0.7);
+            box-shadow: 0 0 0 0 rgba(223, 222, 222, 0.7);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-box-shadow: 0 0 0 0 rgba(223, 222, 222, 0.7);
+            box-shadow: 0 0 0 0 rgba(223, 222, 222, 0.7);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    -webkit-box-shadow: 0 0 0 10px rgba(223, 222, 222, 0.7);
+            box-shadow: 0 0 0 10px rgba(223, 222, 222, 0.7);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-box-shadow: 0 0 0 0 rgba(223, 222, 222, 0.7);
+            box-shadow: 0 0 0 0 rgba(223, 222, 222, 0.7);
+  }
+}
+/*# sourceMappingURL=summary.css.map */
