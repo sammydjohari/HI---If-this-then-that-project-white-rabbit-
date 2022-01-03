@@ -29,7 +29,7 @@ The White Rabbit is an interactive reaction speed game, themed around The Matrix
 
 ### :blue_book: Learnings:
 
-- More HTML / CSS / JS
+- HTML / CSS / JS
 - Functions:
   Used JS Date function to track both the appearance and clicked on time of each rabbit to give an accurate reaction speed.
   Used JS Date function to calculate a total time for each game session, factoring in time penalties.
