@@ -1,4 +1,4 @@
-# RecipeBank
+# Project White Rabbit
 
 ---
 
